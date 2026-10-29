@@ -1,0 +1,7 @@
+text = input("Введите строку: ")
+words = text.split()
+normal = " ".join(words)
+print(f"Исходная длина: {len(text)}")
+print(f"Новая длина: {len(normal)}")
+print(f"Нормализованный текст: {normal}")
+print(f"Количество слов: {len(words)}")
